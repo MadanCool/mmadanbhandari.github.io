@@ -1,55 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    /* background-image: url("https://i.pinimg.com/564x/bd/ba/73/bdba73c5ad4050a370f16e4c44fa8654.jpg"); */
+}
+/* navagation starts */
+.head{
+    height: 20vh;
+    margin: 0%;
+    padding:0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 40%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.topic{
+    width: 40%;
+    overflow: hidden;
+    
+}
+.topic a{
+padding: 3%;
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: 600;
+color: orangered;
+}
+/* nav bar ends here  */
 
-    .navbar{
-        background-color: black;
+/* body starts */
+main{
+    width: 100%;
+}
+.img{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    /* border: 5px solid black; */
+     
+}
+img{
+    height: 50vh;
+    margin-right: 20px;
+    margin-right: 40px;
+}
+.img p{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 700;
+}
+/* about me starts  */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    
+}
+.about img{
+    height: 80vh;
+    width: 600px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: right;
+    display: flex;
+}
+.about_me{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* about me ends  */
 
-    }
-    .navbar ul{
-        overflow: auto;
-    }
-    .navbar li{
-        float: left;
-        list-style: none;
-        margin: 13px 20px;
-    }
-    .navbar li a{
-        padding: 25px 25px;
-        text-decoration: none;
-        color: white;
-       
-    }
-    .search{
-        padding: 12px 75px;
-        margin: 3px;
-        float: right;
-    }
-    .search input{
-        border-radius: 10px;
-        border: 3px solid floralwhites;
-    }
-    .footer{
-        height: 12vh;
-        width: 100%;
-        border: 2px solid red;
-        
-    }
-    img{
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-        display: flex;
-        align-items: left ;
-    }
-    table ,td , tr ,th {
-        border: 1px solid red;
+.wrap{
+    width: 1200px;
+    margin-top: 20px;
+    margin: auto;
+    display: flex;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s;
+    width: 500px;
+    background: #fff;
+    text-align: center;
+    font-size:16px ;
+    font-family: sans-serif;
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card img{
+    width: 100%;
 
-    }
-    table{
-        background-color: brown;
-    }
-    td{
-        background-color: blueviolet;
-        border-spacing: 5px;
-    }
-    th{
-        background-color: aqua;
-    }
+
+}
+.likes{
+    align-items: center;
+    display: flex;
+     margin-top: 50px;
+    justify-content: center;
+    color: green;
+    margin-bottom: 40px;
+}
